@@ -1,0 +1,123 @@
+body{
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.container-box{
+  background-color: #494e6b;
+  color: #fff;
+  border:2px #ff8000 solid;
+  padding-top:20px;
+  min-height:300px;
+}
+
+.logo_area{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  padding-top: 20px;
+  margin-left: -150px;
+  text-align: center;
+}
+
+.logo_size{
+  width:200px;
+  height:200px;
+}
+
+.companyName{
+  margin-top: 250px;
+}
+
+.companyName h1{
+  font-family: Tahoma;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  word-spacing: 0.5em;
+  text-align: center;
+}
+.companyName p{
+  text-align: center;
+  font-style: oblique;
+  font-size: 20px;
+}
+
+#navbar{
+  background-color: #BFF504;
+  margin:auto;
+  overflow:hidden;
+  border: 2px green solid;
+}
+
+#navbar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li{
+  display: inline;
+}
+
+#navbar a{
+  text-decoration: none;
+  color: green;
+  font-size:20px;
+	padding-right:28px;
+  margin: 10px;
+}
+
+#navbar a:hover{
+  color: black;
+}
+
+.description h3{
+  text-align: center;
+}
+
+footer{
+  background-color: #494e6b;
+  color: white;
+  padding:20px;
+  margin-top: 52px;
+  text-align: center;
+  border:2px #ff8000 solid;
+}
+
+.subscription h3{
+  margin-top: -10px;
+}
+
+.mailForm button[type="submit"]{
+  background-color: #ff8000;
+  color: white;
+  padding: 3px 15px;
+  border: none;
+}
+
+.mailForm button:hover{
+  color:black;
+}
+
+@media(min-width:768px){
+  .description{
+    display: flex;
+  }
+  .description div{
+    padding: 10px;
+  }
+}
+
+@media(max-width:768px) {
+  .logo_size{
+    width:100px;
+    height:100px;
+  }
+  .companyName{
+    margin-top: 150px;
+  }
+}
